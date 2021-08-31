@@ -8,12 +8,13 @@ html {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: #333;
+  color: #2422a3;
+  background-color: rgb(240, 237, 253);
 }
 
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: #2422a3;
   font-weight: bold;
   transition: color 0.1s;
 }
@@ -23,7 +24,7 @@ a:hover {
 }
 
 button {
-  background-color: #225ca3;
+  background-color: #00d4b8;
   border: 0;
   padding: 1%;
   color: white;
@@ -34,7 +35,7 @@ button {
 }
 
 button:hover {
-  background-color: #3486eb;
+  background-color: #52faf1;
 }
 
 .post-list {
@@ -100,7 +101,7 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: #002c63;
   font-size: 100%;
   font-weight: bold;
   transition: color 0.1s;
@@ -109,15 +110,15 @@ main {
 
 .btn-no-style:hover {
   background: none;
-  color: #3486eb;
+  color: #002c63;
 }
 
 .delete-post-btn {
-  background-color: #d41414;
+  background-color: #ff004c;
 }
 
 .delete-post-btn:hover {
-  background-color: #ff643d;
+  background-color: #fa00d9;
 }
 
 .post {
@@ -134,15 +135,6 @@ main {
 .edit-link {
   display: block;
   margin: -1.5% 0 2% 0;
-}
-
-.upvote-btn {
-  background-color: #197d0f;
-  transition: background-color 0.1s;
-}
-
-.upvote-btn:hover {
-  background-color: #1f9c13;
 }
 
 .comment-form {
